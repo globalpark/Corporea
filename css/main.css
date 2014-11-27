@@ -1,0 +1,108 @@
+/* ==================================================================
+	Corporea
+   ================================================================== */
+
+
+/* ==================================================================
+	Global Classes
+   ================================================================== */
+
+.center{
+ 	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
+
+.left{
+	float: left !important;
+}
+
+.right{
+	float: right !important;
+}
+
+.fill{
+	width: 100%;
+}
+
+.light{
+	font-weight: 300;
+}
+
+.thin{
+	font-weight: 100;
+}
+
+/* ==================================================================
+   Main Container
+   ================================================================== */
+
+#main-container{
+	background-color: #eee;
+	height: 1000px;
+}
+
+/* ==================================================================
+   Navigation
+   ================================================================== */
+
+
+#main-nav{
+	text-transform: uppercase;
+	background-image: none !important; 
+}
+
+#main-nav .container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#main-nav.black .nav li a{
+	color: #fff;
+	-webkit-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
+}
+
+#main-nav.black{
+	background-color: #000;
+	-webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+}
+
+#main-nav.white .nav li a{
+	color: #000;
+	-webkit-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
+}
+
+#main-nav.white{
+	background-color: #fff;
+	-webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+}
+
+.navbar-brand{
+	padding: 0;
+}
+
+.navbar-brand img{
+	height: 50px;
+}
+
+#logo-white{
+	-webkit-transition: display .5s ease-in-out;
+    -moz-transition: display .5s ease-in-out;
+    transition: display .5s ease-in-out;
+}
+
+#logo-black{
+	display: none;
+	-webkit-transition: display .5s ease-in-out;
+    -moz-transition: display .5s ease-in-out;
+    transition: display .5s ease-in-out;
+}
+
