@@ -16,6 +16,14 @@ $(window).scroll(function() {
 
 $(document).ready( function(){
     fitElements();
+
+    //Start Slideshow
+    if( $("#home-hero") != undefined){
+        $("#home-hero").backstretch([
+            "img/portada.jpg",
+            "img/portada-2.jpg"
+        ], {duration: 3500, fade: 750} );
+    }
 });
 
 $(window).resize( function(){
@@ -26,5 +34,5 @@ function fitElements(){
     windowHeight = $(window).height();
     $('#home-hero').height(windowHeight + "px");
 
-    
+
 }
