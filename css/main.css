@@ -57,8 +57,10 @@
 	padding-bottom: 20px;
 }
 
-#main-nav.black .nav li a{
+#main-nav.black .nav li a,
+#main-nav.black i{
 	color: #d6d6d6;
+  font-weight: 300;
 	-webkit-transition: color .5s ease-in-out;
     -moz-transition: color .5s ease-in-out;
     transition: color .5s ease-in-out;
@@ -71,8 +73,10 @@
     transition: background .5s ease-in-out;
 }
 
-#main-nav.white .nav li a{
+#main-nav.white .nav li a,
+#main-nav.white i{
 	color: #2f3336;
+  font-weight: 300;
 	-webkit-transition: color .5s ease-in-out;
     -moz-transition: color .5s ease-in-out;
     transition: color .5s ease-in-out;
@@ -89,10 +93,26 @@
 	padding: 0;
 }
 
+.navbar-toggle{
+  border: 0px !important;
+}
+
+.navbar-toggle:hover i{
+  color: #000 !important;
+  -webkit-transition: color 0s ease-in-out;
+    -moz-transition: color 0s ease-in-out;
+    transition: color 0s ease-in-out;
+}
+
 .navbar-brand img{
-	height: 50px;
+	height: 70px;
   padding-left: 15px;
+  margin-top: -10px;
 } 
+
+.navbar-collapse{
+  border: 0px !important;
+}
 
 #logo-white{
 	-webkit-transition: display .5s ease-in-out;
@@ -113,7 +133,7 @@
 
 #home-hero{
   width: 100%;
-  
+  margin-top: 90px;
   background-size: cover;
   background-position: center center;
 }
@@ -169,7 +189,7 @@
 }
 
 #promociones .overlay:hover{
-  background-color: rgba(234, 234, 234, 0.3);
+  background-color: rgba(234, 234, 234, 0.45);
 
   -webkit-transition: background-color .5s ease-in-out;
     -moz-transition: background-color .5s ease-in-out;
@@ -231,10 +251,113 @@
 
 footer{
   width: 100%;
-  height: 400px;
   background-color: #2f3336;
+  color: #d6d6d6;
+  text-transform: uppercase;
 }
 
+footer .container{
+  padding-top: 10px;
+}
+
+footer a{
+  color: #d6d6d6;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer h4{
+  font-weight: 100;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+#footer-nav{
+  /*border-bottom: 1px solid #d6d6d6;*/
+}
+
+footer .nav li a{
+  font-weight: 100;
+  background-color: transparent;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+
+footer .nav li:first-child a{
+  padding-left: 15px;
+} 
+
+footer .nav li a:hover{
+  font-weight: 100;
+  background-color: transparent;
+  color: #fff;
+}
+
+footer .social-icon{
+  height: 40px;
+}
+
+#social-nav{
+  margin-top: 10px;
+}
+
+#social-nav li:first-child a{
+  margin-left: 15px;
+}
+
+#social-nav li:last-child a{
+  margin-right: 15px;
+}
+
+#direccion{
+  margin-bottom: 20px;
+}
+
+.line{
+  width: 100%;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+
+
+/* ==================================================================
+   Media Queries
+   ================================================================== */
+@media only screen and (max-width: 768px){
+
+  .navbar-brand img{
+    margin-top: 0px;
+    height: 60px;
+  }
+
+  #main-nav .container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #main-nav .nav li a{
+    text-align: center;
+  }
+
+  footer .nav li:first-child a{
+    padding-left: 0px;
+  } 
+
+  #social-nav li:first-child a{
+    margin-left: 0px;
+  }
+
+  #social-nav li:last-child a{
+    margin-right: 0px;
+  }
+
+}
 
 
 

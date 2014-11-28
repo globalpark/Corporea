@@ -32,7 +32,6 @@ $(window).resize( function(){
 
 function fitElements(){
     windowHeight = $(window).height();
-    $('#home-hero').height(windowHeight + "px");
-
-
+    $('#home-hero').height(windowHeight*.7 + "px");
+    
 }
