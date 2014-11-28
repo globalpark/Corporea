@@ -82,6 +82,14 @@
     transition: color .5s ease-in-out;
 }
 
+#main-nav.white .nav li a:hover{
+  color: #d6d6d6;
+}
+
+#main-nav.black .nav li a:hover{
+  color: #fff;
+}
+
 #main-nav.white{
 	background-color: #fff;
 	-webkit-transition: background .5s ease-in-out;
@@ -146,13 +154,45 @@
    About
    ================================================================== */
 #about{
-  background-color: #e295a7;
+  background-color: #61556b;
   color: #fff;
 }
 
 #about .container{
   padding-top: 50px;
   padding-bottom:  50px;
+}
+
+/* ==================================================================
+   Doctor
+   ================================================================== */
+#doctor{
+  background-color: #eaeaea;
+}
+
+#doctor .btn-default{
+  background-color: #eee;
+}
+
+#doctor .btn-default:hover{
+  background-color: #fff;
+}
+
+#info-doctor{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#titulo-doctor{
+  width: 100%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+#titulo-doctor h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* ==================================================================
@@ -330,6 +370,10 @@ footer .social-icon{
    Media Queries
    ================================================================== */
 @media only screen and (max-width: 768px){
+
+  #home-hero{
+    margin-top: 60px;
+  }
 
   .navbar-brand img{
     margin-top: 0px;
