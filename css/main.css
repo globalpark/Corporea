@@ -9,8 +9,8 @@
 
 .center{
  	margin-left: auto;
-  	margin-right: auto;
-  	text-align: center;
+	margin-right: auto;
+	text-align: center;
 }
 
 .left{
@@ -39,17 +39,18 @@
 
 #main-container{
 	background-color: #eee;
-	height: 1000px;
+	height: 2000px;
+  z-index: 10;
 }
 
 /* ==================================================================
    Navigation
    ================================================================== */
 
-
 #main-nav{
 	text-transform: uppercase;
 	background-image: none !important; 
+  border: 0px;
 }
 
 #main-nav .container{
@@ -58,21 +59,21 @@
 }
 
 #main-nav.black .nav li a{
-	color: #fff;
+	color: #d6d6d6;
 	-webkit-transition: color .5s ease-in-out;
     -moz-transition: color .5s ease-in-out;
     transition: color .5s ease-in-out;
 }
 
 #main-nav.black{
-	background-color: #000;
+	background-color: #2f3336;
 	-webkit-transition: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
     transition: background .5s ease-in-out;
 }
 
 #main-nav.white .nav li a{
-	color: #000;
+	color: #2f3336;
 	-webkit-transition: color .5s ease-in-out;
     -moz-transition: color .5s ease-in-out;
     transition: color .5s ease-in-out;
@@ -91,7 +92,8 @@
 
 .navbar-brand img{
 	height: 50px;
-}
+  padding-left: 15px;
+} 
 
 #logo-white{
 	-webkit-transition: display .5s ease-in-out;
@@ -105,4 +107,88 @@
     -moz-transition: display .5s ease-in-out;
     transition: display .5s ease-in-out;
 }
+
+/* ==================================================================
+   Home Hero
+   ================================================================== */
+
+#home-hero{
+  width: 100%;
+  
+  background-size: cover;
+  background-position: center center;
+}
+
+#home-hero .container{
+  padding-top: 400px;
+}
+
+/* ==================================================================
+   About
+   ================================================================== */
+#about{
+  background-color: #3d2538;
+  color: #fff;
+}
+
+#about .container{
+  padding-top: 50px;
+  padding-bottom:  50px;
+}
+
+/* ==================================================================
+   Promociones
+   ================================================================== */
+
+#promociones{
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  color: #3f291b;
+  background-color: rgba(234, 234, 234, 0.6);
+  text-transform: uppercase;
+}
+
+#promociones a{
+  color: #82532b;
+}
+
+#promociones .container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#promociones .overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(234, 234, 234, 0.6);
+  z-index: 100;
+
+  -webkit-transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-in-out;
+}
+
+#promociones .overlay:hover{
+  background-color: rgba(234, 234, 234, 0.4);
+
+  -webkit-transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
