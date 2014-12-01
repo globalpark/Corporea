@@ -170,11 +170,13 @@
   background-color: #eaeaea;
 }
 
-#doctor .btn-default{
+#doctor .btn-default,
+#about .btn-default{
   background-color: #eee;
 }
 
-#doctor .btn-default:hover{
+#doctor .btn-default:hover,
+#about .btn-default:hover{
   background-color: #fff;
 }
 
