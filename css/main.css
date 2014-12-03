@@ -300,8 +300,36 @@
 #contacto{
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #dddddd;
+  min-height: 700px;
 }
 
+#contacto a{
+  color: #000;
+}
+
+.contact-sheet{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#contact-form{
+  background-color: rgba(251, 251, 251, 0.6);
+  padding: 10px;
+}
+
+#contact input,
+#contact textarea,
+#contacto .form-control{
+  border-radius: 0px !important;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#contacto .form-group{
+  margin-top: 15px;
+}
 
 /* ==================================================================
    Footer
@@ -387,6 +415,25 @@ footer .social-icon{
 /* ==================================================================
    Media Queries
    ================================================================== */
+
+
+@media only screen and (max-width: 1170px){
+
+  #main-nav .nav li a{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+}
+
+@media only screen and (max-width: 992px){
+  #main-nav .nav li a{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+  }
+}
+
 @media only screen and (max-width: 768px){
 
   #home-hero{
@@ -417,6 +464,17 @@ footer .social-icon{
 
   #social-nav li:last-child a{
     margin-right: 0px;
+  }
+
+  #contacto{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 400px;
+  }
+
+  #contact-info{
+    background-color: rgba(251, 251, 251, 0.6);
+    padding: 10px;
   }
 
 }
