@@ -243,42 +243,22 @@
 }
 
 .promo {
-  
-  /*border: 1px solid black; */
   padding: 0px;
   margin: 5px 5px;
   background-size: cover;
   background-position: center center;
-
-}
-
-.promo1 {
-  background-color: pink;
-
-}
-
-.promo2 {
-  background-color: blue;
-}
-
-
-
-.promo3 {
-  background-color: green;
 }
 
 .promo h3 {
   padding:180px 0px;
   font-size: 40px;
   font-weight: 300;
-
 }
 
 .promo p {
   font-size: 14px;
   font-weight: 300;
   padding: 0px 10px 10px;
-
 }
 
 #promociones_page .overlay{
@@ -291,8 +271,8 @@
     -moz-transition: background-color .5s ease-in-out;
     transition: background-color .5s ease-in-out;
 }
-#promociones_page 
-.overlay:hover{
+
+#promociones_page .overlay:hover{
   background-color: rgba(234, 234, 234, 0.2);
 
   -webkit-transition: background-color .5s ease-in-out;
