@@ -17,6 +17,7 @@
             </div>
         </section>
 
+        <!--
         <section id="doctor">
             <div class="container">
                 <div class="col-sm-5">
@@ -32,7 +33,7 @@
                     <a type="button" class="btn btn-default btn-lg">Leer más...</a>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section id="promociones" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/promociones.jpg)">
             <div class="overlay">
