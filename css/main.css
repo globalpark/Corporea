@@ -238,6 +238,68 @@
     transition: background-color .5s ease-in-out;
 }
 
+.promocion{
+  padding: 0px;
+}
+
+.promo {
+  
+  /*border: 1px solid black; */
+  padding: 0px;
+  margin: 5px 5px;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.promo1 {
+  background-color: pink;
+
+}
+
+.promo2 {
+  background-color: blue;
+}
+
+
+
+.promo3 {
+  background-color: green;
+}
+
+.promo h3 {
+  padding:180px 0px;
+  font-size: 40px;
+  font-weight: 300;
+
+}
+
+.promo p {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0px 10px 10px;
+
+}
+
+#promociones_page .overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(234, 234, 234, 0.5);
+  z-index: 1001;
+
+  -webkit-transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-in-out;
+}
+#promociones_page 
+.overlay:hover{
+  background-color: rgba(234, 234, 234, 0.2);
+
+  -webkit-transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-in-out;
+}
+
 /* ==================================================================
    Procedimientos
    ================================================================== */
@@ -478,6 +540,8 @@ footer .social-icon{
   }
 
 }
+
+
 
 
 
