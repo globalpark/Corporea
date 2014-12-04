@@ -29,13 +29,13 @@ $message_sent    = "¡Gracias! Tu mensaje se envió exitosamente.";
 //user posted variables
 $name = $_POST['message_name'];
 $email = $_POST['message_email'];
-$message = "Telefono: " . $_POST['message_phone'] . "\r\n" . $_POST['message_content'];
+$message = "Nombre: " . $_POST['message_name'] . "\r\n" . "Email: " . $_POST['message_email'] . "\r\n" . "Telefono: " . $_POST['message_phone'] . "\r\n" . "\r\n" . $_POST['message_content'];
 $human = $_POST['message_human'];
 
 //php mailer variables
 $to = "luis.mendoza@globalpark.mx";
 $subject = "Mensaje de contacto de corporea.mx";
-$headers = 'From: '. $email . "\r\n" .
+$headers = 'From: '. $name . "\r\n" .
   'Reply-To: ' . $email . "\r\n";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
