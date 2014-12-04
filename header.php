@@ -28,7 +28,7 @@
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                         <i class="fa fa-bars fa-2x"></i>
                     </button>
-                    <a class="navbar-brand" href="#"><img id="logo-white" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="img-responsive"><img id="logo-black" src="<?php echo get_template_directory_uri(); ?>/img/logo2.png" class="img-responsive"></a>
+                    <a class="navbar-brand" href="<?php echo site_url(); ?>"><img id="logo-white" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="img-responsive"><img id="logo-black" src="<?php echo get_template_directory_uri(); ?>/img/logo2.png" class="img-responsive"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">

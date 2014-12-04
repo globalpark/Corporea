@@ -40,7 +40,7 @@
                 <div class="container">
                     <div class="col-sm-offset-7 col-sm-5">
                         <h1 class="light">40% de descuento en eyelift todo el mes</h1>
-                        <a href="#">Descubre más promociones</a>
+                        <a href="<?php echo site_url(); ?>/promociones">Descubre más promociones</a>
                     </div>
                 </div>
             </div>
