@@ -32,7 +32,8 @@
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
+                    <?php wp_nav_menu( array( 'theme_location' => 'main-menu','container_class' => 'menu', 'menu_class' => 'nav navbar-nav' ) ); ?>
+                    <!-- <ul class="nav navbar-nav">
                         <li><a href="#">Quiénes Somos</a></li>
                         <li><a href="#">Cara</a></li>
                         <li><a href="#">Cuerpo</a></li>
@@ -40,7 +41,7 @@
                         <li><a href="#">Reconstructiva</a></li>
                         <li><a href="#">Promociones</a></li>
                         <li><a href="#">Contacto</a></li>
-                    </ul>
+                    </ul> -->
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
