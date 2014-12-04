@@ -33,6 +33,25 @@
   font-weight: 100;
 }
 
+.century{
+  font-family: "Century";
+}
+
+/* ==================================================================
+   Fonts
+   ================================================================== */
+
+
+@font-face {
+    font-family: "Century";
+    src: url("../fonts/CenturySchoolbook.woff") format('woff');
+    font-weight: normal;
+}
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
 /* ==================================================================
    Main Container
    ================================================================== */
@@ -154,8 +173,21 @@
    About
    ================================================================== */
 #about{
-  background-color: #61556b;
+  background-color: #e295a7;
+  /*  #61556b #e295a7 #964f4d*/
   color: #fff;
+}
+
+#about h1,
+#about h2,
+#about h3{
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Roboto Slab", serif;
+}
+
+#about b{
+  font-weight: 400;
 }
 
 #about .container{
@@ -250,8 +282,11 @@
 }
 
 .promo h3 {
-  padding:180px 0px;
   font-size: 40px;
+  font-weight: 300;
+}
+
+.promo h2{
   font-weight: 300;
 }
 

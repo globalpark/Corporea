@@ -11,7 +11,7 @@
         <section id="about">
             <div class="container">
                 <div class="col-xs-12">
-                    <h3 class="center thin"><b>Corpórea Health and Aesthetics</b> nace como una clínica privada destinada a satisfacer las más altas exigencias de la sociedad actual, logrando en un solo lugar ofrecer una atención médica especializada del más alto nivel profesional en el área de la cirugía plástica, así como en la salud y estética corporal para mujeres y hombres,  con los últimos avances de la ciencia médica, en un ambiente agradable. Te invitamos a conocernos.</h3>
+                    <h3 class="center light"><b>Corpórea</b> nace como una clínica privada destinada a satisfacer las más altas exigencias de la sociedad actual, logrando en un solo lugar ofrecer una atención médica especializada del más alto nivel profesional en el área de la cirugía plástica, así como en la salud y estética corporal para mujeres y hombres,  con los últimos avances de la ciencia médica, en un ambiente agradable. Te invitamos a conocernos.</h3>
                     <!-- <p class="center"><a type="button" class="btn btn-default btn-lg">Leer más...</a></p> -->
                 </div>
             </div>
@@ -50,7 +50,7 @@
             <div class="container">
                 <div class="col-xs-12">
                     <h1 class="center light">PROCEDIMIENTOS</h1>
-                    <p class="center light">Lorem ipsum dolor sit amet.</p>
+                    <!-- <p class="center light">Lorem ipsum dolor sit amet.</p> -->
                 </div>
 
                 <div class="row">

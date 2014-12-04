@@ -29,6 +29,7 @@
                         <a class="center" href="mailto:contacto@corporea.mx"><h4 style="margin-bottom:20px;">contacto@corporea.mx</h4></a>
                         <h4 class="center">Av. Lomas Verdes 93, Naucalpan</h4>
                         <h4 class="center">Edo. de México</h4>
+                        <!-- <img src="<?php echo get_template_directory_uri(); ?>/img/Logos.png" class="img-responsive center" style="height:100px;"> -->
                     </div>
                 </div>
             </div>
