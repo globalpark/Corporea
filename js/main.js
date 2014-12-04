@@ -20,8 +20,8 @@ $(document).ready( function(){
     //Start Slideshow
     if( $("#home-hero") != undefined){
         $("#home-hero").backstretch([
-            "img/portada.jpg",
-            "img/portada-2.jpg"
+            "../wp-content/themes/Corporea/img/portada.jpg",
+            "../wp-content/themes/Corporea/img/portada-2.jpg"
         ], {duration: 3500, fade: 750} );
     }
 });

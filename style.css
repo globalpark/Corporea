@@ -1,0 +1,12 @@
+/*
+Theme Name: Corporea
+Theme URI: http://corporea.mx
+Description: Tema para la clínica de cirugía plástica Corporea.
+Version: 1.0
+Author: Global Park
+Author URI: http://globalpark.mx
+*/
+
+@import url('css/bootstrap.min.css');
+@import url('plugins/font-awesome/css/font-awesome.min.css');
+@import url('css/main.css');

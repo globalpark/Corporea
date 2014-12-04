@@ -1,36 +1,36 @@
 /* ==================================================================
-	Corporea
+  Corporea
    ================================================================== */
 
 
 /* ==================================================================
-	Global Classes
+  Global Classes
    ================================================================== */
 
 .center{
- 	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .left{
-	float: left !important;
+  float: left !important;
 }
 
 .right{
-	float: right !important;
+  float: right !important;
 }
 
 .fill{
-	width: 100%;
+  width: 100%;
 }
 
 .light{
-	font-weight: 300;
+  font-weight: 300;
 }
 
 .thin{
-	font-weight: 100;
+  font-weight: 100;
 }
 
 /* ==================================================================
@@ -38,7 +38,7 @@
    ================================================================== */
 
 #main-container{
-	background-color: #fff;
+  background-color: #fff;
   z-index: 10;
 }
 
@@ -47,37 +47,37 @@
    ================================================================== */
 
 #main-nav{
-	text-transform: uppercase;
-	background-image: none !important; 
+  text-transform: uppercase;
+  background-image: none !important; 
   border: 0px;
 }
 
 #main-nav .container{
-	padding-top: 20px;
-	padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #main-nav.black .nav li a,
 #main-nav.black i{
-	color: #d6d6d6;
+  color: #d6d6d6;
   font-weight: 300;
-	-webkit-transition: color .5s ease-in-out;
+  -webkit-transition: color .5s ease-in-out;
     -moz-transition: color .5s ease-in-out;
     transition: color .5s ease-in-out;
 }
 
 #main-nav.black{
-	background-color: #2f3336;
-	-webkit-transition: background .5s ease-in-out;
+  background-color: #2f3336;
+  -webkit-transition: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
     transition: background .5s ease-in-out;
 }
 
 #main-nav.white .nav li a,
 #main-nav.white i{
-	color: #2f3336;
+  color: #2f3336;
   font-weight: 300;
-	-webkit-transition: color .5s ease-in-out;
+  -webkit-transition: color .5s ease-in-out;
     -moz-transition: color .5s ease-in-out;
     transition: color .5s ease-in-out;
 }
@@ -91,14 +91,14 @@
 }
 
 #main-nav.white{
-	background-color: #fff;
-	-webkit-transition: background .5s ease-in-out;
+  background-color: #fff;
+  -webkit-transition: background .5s ease-in-out;
     -moz-transition: background .5s ease-in-out;
     transition: background .5s ease-in-out;
 }
 
 .navbar-brand{
-	padding: 0;
+  padding: 0;
 }
 
 .navbar-toggle{
@@ -113,7 +113,7 @@
 }
 
 .navbar-brand img{
-	height: 70px;
+  height: 70px;
   padding-left: 15px;
   margin-top: -10px;
 } 
@@ -123,14 +123,14 @@
 }
 
 #logo-white{
-	-webkit-transition: display .5s ease-in-out;
+  -webkit-transition: display .5s ease-in-out;
     -moz-transition: display .5s ease-in-out;
     transition: display .5s ease-in-out;
 }
 
 #logo-black{
-	display: none;
-	-webkit-transition: display .5s ease-in-out;
+  display: none;
+  -webkit-transition: display .5s ease-in-out;
     -moz-transition: display .5s ease-in-out;
     transition: display .5s ease-in-out;
 }
@@ -469,11 +469,19 @@ footer .social-icon{
 }
 
 @media only screen and (max-width: 992px){
+<<<<<<< HEAD
+=======
+
+>>>>>>> Wordpress
   #main-nav .nav li a{
     padding-left: 5px;
     padding-right: 5px;
     font-size: 12px;
   }
+<<<<<<< HEAD
+=======
+  
+>>>>>>> Wordpress
 }
 
 @media only screen and (max-width: 768px){
@@ -513,6 +521,7 @@ footer .social-icon{
     padding-bottom: 10px;
     min-height: 400px;
   }
+<<<<<<< HEAD
 
   #contact-info{
     background-color: rgba(251, 251, 251, 0.6);
@@ -532,7 +541,17 @@ footer .social-icon{
 
 
 
+=======
+>>>>>>> Wordpress
+
+  #contact-info{
+    background-color: rgba(251, 251, 251, 0.6);
+    padding: 10px;
+  }
+
+<<<<<<< HEAD
 
 
-
-
+=======
+}
+>>>>>>> Wordpress
