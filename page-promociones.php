@@ -12,7 +12,7 @@ Template Name: Promociones
                 <div class="container">
                     
                     <div class="col-md-12 col-sm-12 promocion">
-                        <div class="promo"style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/portada.jpg)">
+                        <div class="promo"style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/promociones/rinoplastia.jpg)">
                             <div class="overlay">
                                 <div class="promocion-box">
                                     <h3 class="center">RINOPLASTIA</h3>
@@ -26,7 +26,7 @@ Template Name: Promociones
                     </div>
                     
                     <div class="col-md-6 col-sm-12 promocion">
-                        <div class="promo" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/cara.jpg)">
+                        <div class="promo" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/promociones/aumento_senos2.jpg)">
                             <div class="overlay">
                                 <div class="promocion-box">
                                     <h3 class="center">IMPLANTES DE SENOS</h3>
@@ -39,7 +39,7 @@ Template Name: Promociones
                     </div>
 
                     <div class="col-md-6 col-sm-12 promocion">
-                        <div class="promo" style=" background-image: url(<?php echo get_template_directory_uri(); ?>/img/cuerpo.jpg)">
+                        <div class="promo" style=" background-image: url(<?php echo get_template_directory_uri(); ?>/img/promociones/abdominoplastia.jpg)">
                             <div class="overlay">
                                 <div class="promocion-box">
                                     <h3 class="center">ABDOMINOPLASTIA </h3>
@@ -52,7 +52,7 @@ Template Name: Promociones
                     </div>
 
                     <div class="col-md-4 col-sm-12 promocion">
-                        <div class="promo" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/promociones.jpg)">
+                        <div class="promo" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/promociones/liposuccion.jpg)">
                             <div class="overlay">
                                 <div class="promocion-box">
                                     <h3 class="center">LIPOSUCCION</h3>
@@ -65,7 +65,7 @@ Template Name: Promociones
                         
 
                     <div class="col-md-4 col-sm-12 promocion">
-                        <div class="promo" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/cara.jpg)">
+                        <div class="promo" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/promociones/paquete_facial.jpg)">
                             <div class="overlay">
                                 <div class="promocion-box">
                                     <h3 class="center">PAQUETE FACIAL </h3>
@@ -79,7 +79,7 @@ Template Name: Promociones
                         
 
                     <div class="col-md-4 col-sm-12 promocion" >
-                        <div class="promo" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/promociones.jpg)">
+                        <div class="promo" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/promociones/lipoescultura.jpg)">
                             <div class="overlay">
                                 <div class="promocion-box">
                                     <h3 class="center">LIPOESCULTURA</h3>
