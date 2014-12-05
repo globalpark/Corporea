@@ -9,6 +9,7 @@
         <title><?php bloginfo('name'); ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="wLGGOChWrsSUvBHH17M-EBp0hoq6tawDm9lTW4D5GKQ" />
 
         <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
