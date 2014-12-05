@@ -83,7 +83,7 @@ Template Name: Promociones
                             <div class="overlay">
                                 <div class="promocion-box">
                                     <h3 class="center">LIPOESCULTURA</h3>
-                                    <h2 class="center">BOTOX, RELLENO Y PLASMA RICO EN PLAQUETAS (UN AREA)</h2>
+                                    <h2 class="center">LIPOSUCCIÓN CON LIPOTRANSFERENCIA</h2>
                                     <h2 class="center">$45,000.00 MXN</h2>
                                 </div>
                                 <p class="center">SÓLO DICIEMBRE · SUJETO A PREVIA VALORACIÓN · APLICAN RESTRICCIONES</p>

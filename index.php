@@ -39,7 +39,7 @@
             <div class="overlay">
                 <div class="container">
                     <div class="col-sm-offset-7 col-sm-5">
-                        <h1 class="light">40% de descuento en eyelift todo el mes</h1>
+                        <h1 class="light">RINOPLASTÍA </br>$30,000</h1>
                         <a href="<?php echo site_url(); ?>/promociones">Descubre más promociones</a>
                     </div>
                 </div>
