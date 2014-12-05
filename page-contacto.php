@@ -33,7 +33,7 @@ $message = "Nombre: " . $_POST['message_name'] . "\r\n" . "Email: " . $_POST['me
 $human = $_POST['message_human'];
 
 //php mailer variables
-$to = "luis.mendoza2@gmail.com";
+$to = "contacto@corporea.mx";
 $subject = "Mensaje de contacto de corporea.mx";
 $headers = 'From: '. $name . "\r\n" .
   'Reply-To: ' . $email . "\r\n";
