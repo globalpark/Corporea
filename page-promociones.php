@@ -69,7 +69,7 @@ Template Name: Promociones
                             <div class="overlay">
                                 <div class="promocion-box">
                                     <h3 class="center">PAQUETE FACIAL </h3>
-                                    <h2 class="center">BOTOX &reg, RELLENO Y PLASMA RICO EN PLAQUETAS (UN AREA)</h2>
+                                    <h2 class="center">BOTOX&reg, RELLENO Y PLASMA RICO EN PLAQUETAS (UN ÁREA)</h2>
                                     <h2 class="center">$10,000.00 MXN</h2>
                                 </div>
                                 <p class="center">SÓLO DICIEMBRE · SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
@@ -98,7 +98,7 @@ Template Name: Promociones
                             <div class="overlay">
                                 <div class="promocion-box banner-footer">
                                     <h3 class="center">G-SHOT</h3>
-                                    <a href"mailto:contacto@corporea.mx"> <h2 class="center">Contáctanos para mayor información</h2></a>
+                                    <a href="mailto:contacto@corporea.mx"> <h2 class="center">Contáctanos para mayor información</h2></a>
                                 </div>
                             </div>
                             

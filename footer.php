@@ -20,8 +20,8 @@
                 <div class="row">
                     <div class="col-sm-offset-5 col-sm-2">
                         <ul id="social-nav" class="nav nav-pills nav-justified">
-                            <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" class="img-responsive social-icon center"></a></li>
-                            <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png" class="img-responsive social-icon center"></a></li>
+                            <!-- <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/facebook.png" class="img-responsive social-icon center"></a></li> -->
+                            <!-- <li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/twitter.png" class="img-responsive social-icon center"></a></li> -->
                         </ul>
                     </div>
                     <div id="direccion" class="col-xs-12 light">

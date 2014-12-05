@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
 		<div class="page-container"><!-- Page Container -->
 
-            <section id="contacto">
+            <section id="contacto" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/contacto.jpg)">
                 <div class="container">
 
                     <div class="row">

@@ -242,7 +242,9 @@
 }
 
 #promociones a{
-  color: #82532b;
+  color: #573518;
+  font-size:20px;
+  text-decoration: underline;
 }
 
 #promociones .container{
@@ -314,6 +316,14 @@
     transition: background-color .5s ease-in-out;
 }
 
+
+.banner-footer a {
+  color:white;
+}
+
+#titulo-promos {
+  font-size: 50px;
+}
 /* ==================================================================
    Procedimientos
    ================================================================== */
@@ -376,12 +386,15 @@
 #contacto{
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #dddddd;
+  /* background-color: #dddddd;*/
   min-height: 700px;
+  background-position: center center; 
+  color: #fff;
 }
 
 #contacto a{
-  color: #000;
+  color: #E6E6E6;
+  text-decoration: underline;
 }
 
 .contact-sheet{
@@ -405,6 +418,10 @@
 
 #contacto .form-group{
   margin-top: 15px;
+}
+
+#contacto .btn {
+  color: #747474;
 }
 
 /* ==================================================================
@@ -552,6 +569,12 @@ footer .social-icon{
   #contact-info{
     background-color: rgba(251, 251, 251, 0.6);
     padding: 10px;
+    color: #515151;
+  }
+
+ #contact-info a{
+
+    color: #515151;
   }
 
   .promo h3{

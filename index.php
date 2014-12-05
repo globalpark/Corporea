@@ -38,7 +38,11 @@
         <section id="promociones" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/promociones.jpg)">
             <div class="overlay">
                 <div class="container">
-                    <div class="col-sm-offset-7 col-sm-5">
+                    <div class="col-sm-5">
+                        <h1 id="titulo-promos"class="light">NUESTRAS PROMOCIONES</h1>
+                        
+                    </div>
+                    <div class="col-sm-offset-2 col-sm-5">
                         <h1 class="light">RINOPLASTÍA </br>$30,000</h1>
                         <a href="<?php echo site_url(); ?>/promociones">Descubre más promociones</a>
                     </div>
