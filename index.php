@@ -48,9 +48,11 @@
 
         <section id="procedimientos">
             <div class="container">
-                <div class="col-xs-12">
-                    <h1 class="center light">PROCEDIMIENTOS</h1>
-                    <!-- <p class="center light">Lorem ipsum dolor sit amet.</p> -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="center light">PROCEDIMIENTOS</h1>
+                        <!-- <p class="center light">Lorem ipsum dolor sit amet.</p> -->
+                    </div>
                 </div>
 
                 <div class="row">
