@@ -35,25 +35,28 @@ Template Name: Quiénes Somos
                         <table class="table table-hover table-bordered">
                             <thead><h3 class="center light">Diplomas y Certificaciones</h3></thead>
                             <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/1.pdf" target="_blank" class="center">Título Universitario</a></td>
+                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/titulo.pdf" target="_blank" class="center">Título Universitario</a></td>
                             </tr>
                             <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/2.pdf" target="_blank" class="center">Título Especializaión</a></td>
+                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/residencia.pdf" target="_blank" class="center">Título Especializaión</a></td>
                             </tr>
                             <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/3.pdf" target="_blank" class="center">Consejo Mexicano de Cirugía Plástica, Estética y Reconstructiva A.C. </a></td>
+                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/recertificacion.pdf" target="_blank" class="center">Consejo Mexicano de Cirugía Plástica, Estética y Reconstructiva A.C. </a></td>
                             </tr>
                             <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/5.pdf" target="_blank" class="center">Consejo Mexicano de Cirugía Plástica y Reconstructiva A.C.</a></td>
+                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/cert_prof.pdf" target="_blank" class="center">Consejo Mexicano de Cirugía Plástica y Reconstructiva A.C.</a></td>
                             </tr>
                             <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/7.pdf" target="_blank" class="center">Sociedad Médica Ángeles de las Lomas A.C.</a></td>
+                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/laslomas.pdf" target="_blank" class="center">Sociedad Médica Ángeles de las Lomas A.C.</a></td>
                             </tr>
                             <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/8.pdf" target="_blank" class="center">Federación Iberolatinoamericana de Cirugía Plástica</a></td>
+                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/fediberola.pdf" target="_blank" class="center">Federación Iberolatinoamericana de Cirugía Plástica</a></td>
                             </tr>
                             <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/9.pdf" target="_blank" class="center">Cédula Profesional</a></td>
+                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/cedulaProf.pdf" target="_blank" class="center">Cédula Médica</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/cedula.pdf" target="_blank" class="center">Cédula Especialización</a></td>
                             </tr>
                         </table>
                     </div>

@@ -399,7 +399,7 @@
 }
 
 #certificaciones img{
-  height: 90px;
+  height: 80px;
 }
 
 /* ==================================================================
@@ -417,6 +417,19 @@
 
 #quienes-intro p{
   font-size: 18px;
+}
+
+#quienes-intro h1{
+  font-size: 50px;
+}
+
+#quienes-intro h3{
+  font-size: 36px;
+  margin-top: 5px;
+}
+
+#quienes-intro .container{
+  padding-top: 20px;
 }
 
 /* ==================================================================
