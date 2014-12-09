@@ -1,3 +1,30 @@
+        
+        <section id="certificaciones">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4 col-sm-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logos_corporea/logo01.png" alt="" class="center img-responsive">
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logos_corporea/logo02.png" alt="" class="center img-responsive">
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logos_corporea/logo03.png" alt="" class="center img-responsive">
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logos_corporea/logo07.png" alt="" class="center img-responsive">
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logos_corporea/logo05.png" alt="" class="center img-responsive">
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logos_corporea/logo06.png" alt="" class="center img-responsive">
+                    </div>
+                </div>
+            </div>
+        </section>        
+
+
         <footer>
             <!-- <div class="container">
                 <<div class="row">

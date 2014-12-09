@@ -195,40 +195,6 @@
 }
 
 /* ==================================================================
-   Doctor
-   ================================================================== */
-#doctor{
-  background-color: #eaeaea;
-}
-
-#doctor .btn-default,
-#about .btn-default{
-  background-color: #eee;
-}
-
-#doctor .btn-default:hover,
-#about .btn-default:hover{
-  background-color: #fff;
-}
-
-#info-doctor{
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-#titulo-doctor{
-  width: 100%;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-  margin-bottom: 20px;
-}
-
-#titulo-doctor h2{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-/* ==================================================================
    Promociones
    ================================================================== */
 
@@ -425,6 +391,69 @@
 }
 
 /* ==================================================================
+   Certificaciones
+   ================================================================== */
+#certificaciones{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#certificaciones img{
+  height: 90px;
+}
+
+/* ==================================================================
+   Quiénes Somos
+   ================================================================== */
+#quienes-intro{
+  height: 600px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#quienes-intro p{
+  font-size: 18px;
+}
+
+/* ==================================================================
+   Doctor
+   ================================================================== */
+#quienes-doctor{
+  background-color: #eaeaea;
+}
+
+#quienes-doctor .btn-default,
+#about .btn-default{
+  background-color: #eee;
+}
+
+#quienes-doctor .btn-default:hover,
+#about .btn-default:hover{
+  background-color: #fff;
+}
+
+#info-doctor{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#titulo-doctor{
+  width: 100%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+#titulo-doctor h2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* ==================================================================
    Footer
    ================================================================== */
 
@@ -526,12 +555,20 @@ footer .social-icon{
     padding-right: 5px;
     font-size: 12px;
   }
+
+  #quienes-intro .col-sm-6{
+    background-color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 @media only screen and (max-width: 768px){
 
   #home-hero{
     margin-top: 60px;
+  }
+
+  .page-container{
+    margin-top: 30px;
   }
 
   .navbar-brand img{
