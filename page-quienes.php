@@ -36,7 +36,7 @@ Template Name: Quiénes Somos
                         </div>
                     </div>
 
-                    <div class="line"></div>
+                    <div class="line" style="margin-top:15px; margin-bottom:10px;"></div>
 
                     <div class="row">
                         <div class="col-xs-12">
