@@ -92,6 +92,23 @@
     transition: background .5s ease-in-out;
 }
 
+#main-nav.black .container{
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  -webkit-transition: padding .5s ease-in-out;
+    -moz-transition: padding .5s ease-in-out;
+    transition: padding .5s ease-in-out;
+}
+
+#main-nav.black .navbar-brand img{
+  height: 60px;
+  padding-top: 5px;
+  -webkit-transition: height .5s ease-in-out;
+    -moz-transition: height .5s ease-in-out;
+    transition: height .5s ease-in-out;
+}
+
 #main-nav.white .nav li a,
 #main-nav.white i{
   color: #2f3336;
@@ -149,6 +166,7 @@
 
 #logo-black{
   display: none;
+  height: 60px;
   -webkit-transition: display .5s ease-in-out;
     -moz-transition: display .5s ease-in-out;
     transition: display .5s ease-in-out;
@@ -587,6 +605,12 @@ footer .social-icon{
   .navbar-brand img{
     margin-top: 0px;
     height: 60px;
+    padding-top: 0px;
+  }
+
+  #main-nav.black .navbar-brand img{
+    height: 60px;
+    padding-top: 0px;
   }
 
   #main-nav .container{
@@ -633,6 +657,15 @@ footer .social-icon{
 
   .promo h2{
     font-size: 20px;
+  }
+
+  #certificaciones img{
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  #certificaciones{
+    padding-bottom: 10px;
   }
 
 }

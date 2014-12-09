@@ -38,11 +38,11 @@
         <section id="promociones" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/promociones.jpg)">
             <div class="overlay">
                 <div class="container">
-                    <div class="col-sm-5">
+                    <div class="col-sm-6">
                         <h1 id="titulo-promos"class="light">NUESTRAS PROMOCIONES</h1>
                         
                     </div>
-                    <div class="col-sm-offset-2 col-sm-5">
+                    <div class="col-sm-offset-2 col-sm-4">
                         <h1 class="light">RINOPLASTÍA </br>$30,000</h1>
                         <a href="<?php echo site_url(); ?>/promociones">Descubre más promociones</a>
                     </div>
@@ -62,7 +62,7 @@
                 <div class="row">
 
                     <div id="cara" class="col-sm-4">
-                        <div class="seccion-procedimientos" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/cara.jpg)">
+                        <div class="seccion-procedimientos" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/cara2.jpg)">
                             <div class="overlay">
                                 <a href=""><h2 class="center titulo-procedimiento">Cara</h2></a>
                             </div>

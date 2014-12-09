@@ -22,7 +22,8 @@ $(document).ready( function(){
         $("#home-hero").backstretch([
             "../wp-content/themes/Corporea/img/home/homepage1.jpg",
             "../wp-content/themes/Corporea/img/home/homepage2.jpg",
-            "../wp-content/themes/Corporea/img/home/homepage3.jpg"
+            "../wp-content/themes/Corporea/img/home/homepage3.jpg",
+            "../wp-content/themes/Corporea/img/home/homepage6.jpg"
         ], {duration: 3500, fade: 750} );
     }
 });
