@@ -20,46 +20,54 @@ Template Name: Quiénes Somos
   
             <section id="quienes-doctor">
                 <div class="container">
-                    <div class="col-sm-4">
-                        <img src="/wp-content/themes/Corporea/img/dr.jpeg" class="center img-responsive">
-                    </div>
-                    <div id="info-doctor" class="col-sm-8">
-                        <div id="titulo-doctor">
-                            <h2 class="center light">DR. JUAN ANTONIO DOMÍNGUEZ ZAMBRANO</h2>
+
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="/wp-content/themes/Corporea/img/dr.jpeg" class="center img-responsive">
                         </div>
-                        <p>El Dr Juan Antonio Domínguez Zambrano es médico cirujano egresado por la UNAM-ENEPI, con posgrado realizado en el Hospital General de México  en Cirugía Plástica Estética y Reconstructiva, ha sido cirujano visitante en instituciones de Cirugía Plástica de Brasil, EUA y Europa.</p>
-                        <p>Actualmente es jefe de la Clínica de Cirugía Estética del Hospital General de México OD y profesor del posgrado de la UNAM para la especialidad en Cirugía Plástica, miembro de múltiples asociaciones científicas nacionales e internacionales, conferencista en eventos de la especialidad y autor de múltiples artículos y capítulos de libros científicos.</p>
-                        <p>Es consejero profesor del Consejo Mexicano de Cirugía Plástica, así como miembro de la Asociación Mexicana de Cirugía Plástica Estética y Reconstructiva. Actualmente funge como director médico de Corpórea.</p>
-                        <!-- <a type="button" class="btn btn-default btn-lg">Ver Diplomas y Certificaciones</a> -->
+                        <div id="info-doctor" class="col-sm-8">
+                            <div id="titulo-doctor">
+                                <h2 class="center light">DR. JUAN ANTONIO DOMÍNGUEZ ZAMBRANO</h2>
+                            </div>
+                            <p>El Dr Juan Antonio Domínguez Zambrano es médico cirujano egresado por la UNAM-ENEPI, con posgrado realizado en el Hospital General de México  en Cirugía Plástica Estética y Reconstructiva, ha sido cirujano visitante en instituciones de Cirugía Plástica de Brasil, EUA y Europa.</p>
+                            <p>Actualmente es jefe de la Clínica de Cirugía Estética del Hospital General de México OD y profesor del posgrado de la UNAM para la especialidad en Cirugía Plástica, miembro de múltiples asociaciones científicas nacionales e internacionales, conferencista en eventos de la especialidad y autor de múltiples artículos y capítulos de libros científicos.</p>
+                            <p>Es consejero profesor del Consejo Mexicano de Cirugía Plástica, así como miembro de la Asociación Mexicana de Cirugía Plástica Estética y Reconstructiva. Actualmente funge como director médico de Corpórea.</p>
+                            <!-- <a type="button" class="btn btn-default btn-lg">Ver Diplomas y Certificaciones</a> -->
+                        </div>
                     </div>
-                    <div class="col-xs-12">
-                        <table class="table table-hover table-bordered">
-                            <thead><h3 class="center light">Diplomas y Certificaciones</h3></thead>
-                            <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/titulo.pdf" target="_blank" class="center">Título Universitario</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/residencia.pdf" target="_blank" class="center">Título Especializaión</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/recertificacion.pdf" target="_blank" class="center">Consejo Mexicano de Cirugía Plástica, Estética y Reconstructiva A.C. </a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/cert_prof.pdf" target="_blank" class="center">Consejo Mexicano de Cirugía Plástica y Reconstructiva A.C.</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/laslomas.pdf" target="_blank" class="center">Sociedad Médica Ángeles de las Lomas A.C.</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/fediberola.pdf" target="_blank" class="center">Federación Iberolatinoamericana de Cirugía Plástica</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/cedulaProf.pdf" target="_blank" class="center">Cédula Médica</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/cedula.pdf" target="_blank" class="center">Cédula Especialización</a></td>
-                            </tr>
-                        </table>
+
+                    <div class="line"></div>
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <table class="table table-hover table-bordered">
+                                <thead><h3 class="center light">Diplomas y Certificaciones</h3></thead>
+                                <tr>
+                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/titulo.pdf" target="_blank" class="center">Título Universitario</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/residencia.pdf" target="_blank" class="center">Título Especializaión</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/recertificacion.pdf" target="_blank" class="center">Consejo Mexicano de Cirugía Plástica, Estética y Reconstructiva A.C. </a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/cert_prof.pdf" target="_blank" class="center">Consejo Mexicano de Cirugía Plástica y Reconstructiva A.C.</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/laslomas.pdf" target="_blank" class="center">Sociedad Médica Ángeles de las Lomas A.C.</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/fediberola.pdf" target="_blank" class="center">Federación Iberolatinoamericana de Cirugía Plástica</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/cedulaProf.pdf" target="_blank" class="center">Cédula Médica</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/cedula.pdf" target="_blank" class="center">Cédula Especialización</a></td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </section>

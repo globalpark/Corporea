@@ -37,6 +37,13 @@
   font-family: "Century";
 }
 
+.line{
+  width: 100%;
+  border-top: 1px solid #5d6265;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
 /* ==================================================================
    Fonts
    ================================================================== */
@@ -457,6 +464,10 @@
   background-color: #eaeaea;
 }
 
+#quienes-doctor .container{
+  padding-top: 20px;
+}
+
 #quienes-doctor .btn-default,
 #about .btn-default{
   background-color: #eee;
@@ -599,7 +610,7 @@ footer .social-icon{
   }
 
   .page-container{
-    margin-top: 30px;
+    margin-top: 60px;
   }
 
   .navbar-brand img{
