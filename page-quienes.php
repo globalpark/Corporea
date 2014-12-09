@@ -20,10 +20,10 @@ Template Name: Quiénes Somos
   
             <section id="quienes-doctor">
                 <div class="container">
-                    <div class="col-sm-5">
-                        <!-- <img src="/wp-content/themes/Corporea/img/doctor.jpg" class="center img-responsive"> -->
+                    <div class="col-sm-4">
+                        <img src="/wp-content/themes/Corporea/img/dr.jpeg" class="center img-responsive">
                     </div>
-                    <div id="info-doctor" class="col-sm-12">
+                    <div id="info-doctor" class="col-sm-8">
                         <div id="titulo-doctor">
                             <h2 class="center light">DR. JUAN ANTONIO DOMÍNGUEZ ZAMBRANO</h2>
                         </div>
@@ -31,7 +31,8 @@ Template Name: Quiénes Somos
                         <p>Actualmente es jefe de la Clínica de Cirugía Estética del Hospital General de México OD y profesor del posgrado de la UNAM para la especialidad en Cirugía Plástica, miembro de múltiples asociaciones científicas nacionales e internacionales, conferencista en eventos de la especialidad y autor de múltiples artículos y capítulos de libros científicos.</p>
                         <p>Es consejero profesor del Consejo Mexicano de Cirugía Plástica, así como miembro de la Asociación Mexicana de Cirugía Plástica Estética y Reconstructiva. Actualmente funge como director médico de Corpórea.</p>
                         <!-- <a type="button" class="btn btn-default btn-lg">Ver Diplomas y Certificaciones</a> -->
-
+                    </div>
+                    <div class="col-xs-12">
                         <table class="table table-hover table-bordered">
                             <thead><h3 class="center light">Diplomas y Certificaciones</h3></thead>
                             <tr>
