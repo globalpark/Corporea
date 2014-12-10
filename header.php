@@ -23,7 +23,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     
-    <div id="main-container">
+    <div id="nav-container">
 
         <nav id="main-nav" class="navbar navbar-default navbar-fixed-top white" role="navigation">
             <div class="container">
@@ -48,3 +48,15 @@
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
+
+        <nav id="dropdown">
+            <div class="container hidden-xs">
+                <div class="row">
+                    <p>hola</p>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <div id="main-container">

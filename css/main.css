@@ -64,21 +64,25 @@
 #main-container{
   background-color: #fff;
   z-index: 10;
+  position: relative;
 }
 
 /* ==================================================================
    Navigation
    ================================================================== */
+#nav-container{
+  z-index: 1030;
+  position: fixed;
+}
 
 #main-nav{
   text-transform: uppercase;
   background-image: none !important; 
   border: 0px;
+  margin-bottom: 0px;
 }
 
 #main-nav .container{
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 #main-nav.black .nav li a,
@@ -97,9 +101,16 @@
     transition: background .5s ease-in-out;
 }
 
-#main-nav.black .container{
-  padding-top: 10px;
-  padding-bottom: 10px;
+#main-nav .navbar-brand{
+  padding: 20px 0 0 10px;
+
+  -webkit-transition: padding .5s ease-in-out;
+    -moz-transition: padding .5s ease-in-out;
+    transition: padding .5s ease-in-out;
+}
+
+#main-nav.black .navbar-brand{
+  padding: 10px 0 0 10px;
 
   -webkit-transition: padding .5s ease-in-out;
     -moz-transition: padding .5s ease-in-out;
@@ -123,12 +134,23 @@
     transition: color .5s ease-in-out;
 }
 
-#main-nav.white .nav li a:hover{
-  color: #d6d6d6;
+#main-nav.white .nav li a{
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
-#main-nav.black .nav li a:hover{
-  color: #fff;
+#main-nav.black .nav li a{
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  -webkit-transition: padding .5s ease-in-out;
+    -moz-transition: padding .5s ease-in-out;
+    transition: padding .5s ease-in-out;
+}
+
+#main-nav .nav li a:hover{
+  background-color: #eaeaea;
+  color: #2f3336;
 }
 
 #main-nav.white{
@@ -176,6 +198,23 @@
     -moz-transition: display .5s ease-in-out;
     transition: display .5s ease-in-out;
 }
+
+/* ==================================================================
+   Dropdown
+   ================================================================== */
+#dropdown{
+  width: 100vw;
+  background-color: #eaeaea;
+  height: 50px;
+}
+
+#dropdown.moveUp{
+  margin-top: -20px;
+  -webkit-transition: margin .5s ease-in-out;
+    -moz-transition: margin .5s ease-in-out;
+    transition: margin .5s ease-in-out;
+}
+
 
 /* ==================================================================
    Home Hero
@@ -614,6 +653,14 @@ footer .social-icon{
   .navbar-brand img{
     margin-top: 0px;
     height: 60px;
+    padding-top: 0px;
+  }
+
+  #main-nav .navbar-brand{
+    padding-top: 0px;
+  }
+
+  #main-nav.black .navbar-brand{
     padding-top: 0px;
   }
 
