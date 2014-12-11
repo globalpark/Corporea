@@ -46,13 +46,13 @@ Template Name: Quiénes Somos
                                     <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/titulo.pdf" target="_blank" class="center">Título Universitario</a></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/residencia.pdf" target="_blank" class="center">Título Especializaión</a></td>
-                                </tr>
-                                <tr>
-                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/recertificacion.pdf" target="_blank" class="center">Consejo Mexicano de Cirugía Plástica, Estética y Reconstructiva A.C. </a></td>
+                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/residencia.pdf" target="_blank" class="center">Título Especialización</a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/cert_prof.pdf" target="_blank" class="center">Consejo Mexicano de Cirugía Plástica y Reconstructiva A.C.</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/recertificacion.pdf" target="_blank" class="center">Recertificación Consejo Mexicano de Cirugía Plástica, Estética y Reconstructiva A.C. </a></td>
                                 </tr>
                                 <tr>
                                     <td><a href="<?php echo get_template_directory_uri(); ?>/pdf/laslomas.pdf" target="_blank" class="center">Sociedad Médica Ángeles de las Lomas A.C.</a></td>
