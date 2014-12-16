@@ -1,9 +1,19 @@
 <?php get_header(); ?>
 
-        <section id="home-hero" style="background-image: url(<?php echo get_template_directory_uri(); ?>/img/portada.jpg)">
-            <div class="container">
-                <div class="col-xs-12">
-                    <!-- <h1 id="">Título del Banner</h1> -->
+        <section id="home-hero">
+            <div id="home-slider" class="owl-carousel">
+                <div class="item container-fluid" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home/homepage1.jpg);">
+                    <div class="col-sm-6">
+                        <h1>Titulo</h1>
+                        <p>tagline</p>
+                    </div>
+                </div>
+
+                <div class="item container-fluid" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home/homepage2.jpg);">
+                    <div class="col-sm-6">
+                        <h1>Titulo</h1>
+                        <p>tagline</p>
+                    </div>
                 </div>
             </div>
         </section>

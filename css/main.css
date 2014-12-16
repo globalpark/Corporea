@@ -191,6 +191,13 @@
   padding-top: 400px;
 }
 
+#home-slider .item{
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+
 /* ==================================================================
    About
    ================================================================== */
