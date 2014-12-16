@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                         
                     <div class="row contact-sheet">
 
-                        <div class="col-sm-4 col-md-3">
+                        <div id="contact-info-container" class="col-sm-4 col-md-3">
                             <div id="contact-info" class="light">
                                 <h4 class="light">+52 55 5572-4150</h4>
                                 <h4 class="light" style="margin-bottom:20px;">+52 55 5344-4112</h4>
@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                             </div>
                         </div>
 
-                        <div class="col-sm-8 col-md-9">
+                        <div id="contact-form-container" class="col-sm-8 col-md-9">
                             <div id="contact-form">
                                 <?php echo $response; ?>
                                 <form action="<?php the_permalink(); ?>" method="post">
@@ -80,7 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                                         <input type="text" class="form-control" placeholder="E-Mail" type="text" name="message_email" value="<?php echo esc_attr($_POST['message_email']); ?>">
                                         <input type="text" class="form-control" placeholder="Teléfono" type="text" name="message_phone" value="<?php echo esc_attr($_POST['message_phone']); ?>">
                                         <textarea class="form-control" rows="5" placeholder="Mensaje" type="text" name="message_content" value="<?php echo esc_attr($_POST['message_content']); ?>"></textarea>
-                                        <button type="submit" class="btn btn-default btn-lg">Enviar</button>
+                                        <button id="contacto-button" type="submit" class="btn btn-default btn-lg">Enviar</button>
                                     </div>
                                 </form>
                             </div>
@@ -93,4 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
             
         </div><!-- /Page Container -->
 
-<?php get_footer(); ?>
+<?php 
+    get_footer(); 
+    contacto_scripts();
+?>
