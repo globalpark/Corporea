@@ -1,21 +1,65 @@
 <?php get_header(); ?>
 
         <section id="home-hero">
+
             <div id="home-slider" class="owl-carousel">
-                <div class="item container-fluid" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home/homepage1.jpg);">
-                    <div class="col-sm-6">
-                        <h1>Titulo</h1>
-                        <p>tagline</p>
+
+                <div class="item container-fluid" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home/homepage10.jpg);">
+                    <div class="col-sm-5 right">
+                        <div class="slide-text">
+                            <h1>Mommy Makeover</h1>
+                            <a href="<?php echo site_url(); ?>/promociones">Consiéntete después de tu embarazo con este paquete postmaternidad para recuperar tu figura</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="item container-fluid" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home/homepage2.jpg);">
-                    <div class="col-sm-6">
-                        <h1>Titulo</h1>
-                        <p>tagline</p>
+                <div class="item container-fluid" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home/homepage9.jpg);">
+                    <div class="col-sm-5">
+                        <div class="slide-text">
+                            <h1>Aumento de senos</h1>
+                            <a href="<?php echo site_url(); ?>/promociones">Aprovecha esta promoción para lucir un estupendo escote</a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="item container-fluid" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home/homepage8.jpg);">
+                    <div class="col-sm-5 right">
+                        <div class="slide-text">
+                            <h1>Liposucción de alta definición</h1>
+                            <a href="<?php echo site_url(); ?>/promociones">Regálate un six pack con nuestro procedimiento de liposucción de alta definición</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item container-fluid" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home/homepage6.jpg);">
+                    <div class="col-sm-5 right">
+                        <div class="slide-text">
+                            <h1>Selfies todo el tiempo</h1>
+                            <a href="<?php echo site_url(); ?>/promociones">Descubre nuestras promociones de procedimientos faciales</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item container-fluid" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home/homepage7.jpg);">
+                    <div class="col-sm-5">
+                        <div class="slide-text">
+                            <h1>Cirugía íntima femenina</h1>
+                            <a href="<?php echo site_url(); ?>/contacto">Atrévete a preguntar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item container-fluid" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/home/homepage3.jpg);">
+                    <div class="col-sm-5 right">
+                        <div class="slide-text">
+                            <h1>¡Adiós a las arrugas!</h1>
+                            <a href="<?php echo site_url(); ?>/promociones">Revisa nuestro paquete facial</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </section>
 
         <section id="about">

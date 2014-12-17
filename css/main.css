@@ -206,6 +206,7 @@
   width: 100vw;
   background-color: #eaeaea;
   height: 50px;
+  display: none;
 }
 
 #dropdown.moveUp{
@@ -219,7 +220,6 @@
 /* ==================================================================
    Home Hero
    ================================================================== */
-
 #home-hero{
   width: 100%;
   margin-top: 90px;
@@ -235,14 +235,48 @@
   height: 100%;
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 10;
+}
+
+#home-slider .item h1{
+  font-size: 55px;
+  font-weight: 300;
+}
+
+#home-slider .item p,
+#home-slider .item a{
+  font-weight: 300;
+  font-size: 30px;
+}
+
+#home-slider .slide-text a{
+  color: #2f3336;
+}
+
+#home-slider .slide-text a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#home-slider .owl-controls{
+  margin-top: -40px;
+  cursor: pointer;
+  z-index: 1020;
+}
+
+#home-slider .owl-controls .owl-page.active > span{
+  background-color: #000;
+  opacity: 0.5;
 }
 
 /* ==================================================================
    About
    ================================================================== */
 #about{
-  background-color: #e2767b;
-  /*  #61556b #e295a7 #964f4d*/
+  background-color: #e295a7;
+  /*  #61556b #e295a7 #964f4d #e2767b*/
   color: #fff;
 }
 
@@ -700,6 +734,11 @@ footer .social-icon{
   #main-nav .container{
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  #home-slider .slide-text{
+    background-color: rgba(251, 251, 251, .6);
+    padding: 15px;
   }
 
   #main-nav .nav li a{
