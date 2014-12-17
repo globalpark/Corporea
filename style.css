@@ -9,4 +9,7 @@ Author URI: http://globalpark.mx
 
 @import url('css/bootstrap.min.css');
 @import url('plugins/font-awesome/css/font-awesome.min.css');
+@import url('plugins/owl-carousel/owl.carousel.css');
+@import url('plugins/owl-carousel/owl.theme.css');
+@import url('plugins/owl-carousel/owl.transitions.css');
 @import url('css/main.css');

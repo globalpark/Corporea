@@ -5,11 +5,13 @@ $(window).scroll(function() {
         $("#main-nav").removeClass("white");
         $("#logo-black").css("display", "block");
         $("#logo-white").css("display", "none");
+        $("#dropdown").addClass("moveUp");
     } else {
         $("#main-nav").addClass("white");
         $("#main-nav").removeClass("black");
         $("#logo-black").css("display", "none");
         $("#logo-white").css("display", "block");
+        $("#dropdown").removeClass("moveUp");
     }
 
 });
@@ -18,14 +20,23 @@ $(document).ready( function(){
     fitElements();
 
     //Start Slideshow
-    if( $("#home-hero") != undefined){
+    /*if( $("#home-hero") != undefined){
         $("#home-hero").backstretch([
             "../wp-content/themes/Corporea/img/home/homepage1.jpg",
             "../wp-content/themes/Corporea/img/home/homepage2.jpg",
             "../wp-content/themes/Corporea/img/home/homepage3.jpg",
             "../wp-content/themes/Corporea/img/home/homepage6.jpg"
         ], {duration: 3500, fade: 750} );
-    }
+    }*/
+
+    $('#home-slider').owlCarousel({
+        navigation : false, // Show next and prev buttons
+        slideSpeed : 300,
+        paginationSpeed : 400,
+        singleItem:true,
+        autoPlay: true,
+        pagination: false
+    });
 });
 
 $(window).resize( function(){
@@ -34,6 +45,6 @@ $(window).resize( function(){
 
 function fitElements(){
     windowHeight = $(window).height();
-    $('#home-hero').height(windowHeight-90 + "px");
+    $('#home-slider .item').height(windowHeight-90 + "px");
     
 }
