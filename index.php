@@ -93,8 +93,7 @@
             <div class="overlay">
                 <div class="container">
                     <div class="col-sm-6">
-                        <h1 id="titulo-promos"class="light">NUESTRAS PROMOCIONES</h1>
-                        
+                        <h1 id="titulo-promos" class="light">NUESTRAS PROMOCIONES</h1>
                     </div>
                     <div class="col-sm-offset-2 col-sm-4">
                         <h1 class="light">RINOPLASTÍA </br>$30,000</h1>

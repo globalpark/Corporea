@@ -742,16 +742,20 @@ footer .social-icon{
   }
 
   #home-slider .item h1{
-    font-size: 35px;
+    font-size: 25px;
   }
 
   #home-slider .item p,
   #home-slider .item a{
-    font-size: 20px;
+    font-size: 16px;
   }
 
   #main-nav .nav li a{
     text-align: center;
+  }
+
+  #promociones h1{
+    font-size: 32px;
   }
 
   footer .nav li:first-child a{
