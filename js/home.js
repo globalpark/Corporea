@@ -19,7 +19,7 @@ $(window).resize( function(){
 
 function fitElements(){
     windowHeight = $(window).height();
-    $('#home-slider .item').height(windowHeight-90 + "px");  
+    $('#home-slider .item').height(windowHeight-90 + "px");
 }
 
 function centerTagLine(){
@@ -30,5 +30,9 @@ function centerTagLine(){
         elemHeight = $(arr[i]).height();
 
         $(arr[i]).css("margin-top", containerHeight*.3 + "px");
+        
+        if( $(window).width() < 768 ){
+            $('#home-slider .item').height( containerHeight*1.1 + "px");
+        }
     };
 }

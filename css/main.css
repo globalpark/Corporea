@@ -741,6 +741,15 @@ footer .social-icon{
     padding: 15px;
   }
 
+  #home-slider .item h1{
+    font-size: 25px;
+  }
+
+  #home-slider .item p,
+  #home-slider .item a{
+    font-size: 16px;
+  }
+
   #main-nav .nav li a{
     text-align: center;
   }
