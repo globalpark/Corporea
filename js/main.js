@@ -15,36 +15,3 @@ $(window).scroll(function() {
     }
 
 });
-
-$(document).ready( function(){
-    fitElements();
-
-    //Start Slideshow
-    /*if( $("#home-hero") != undefined){
-        $("#home-hero").backstretch([
-            "../wp-content/themes/Corporea/img/home/homepage1.jpg",
-            "../wp-content/themes/Corporea/img/home/homepage2.jpg",
-            "../wp-content/themes/Corporea/img/home/homepage3.jpg",
-            "../wp-content/themes/Corporea/img/home/homepage6.jpg"
-        ], {duration: 3500, fade: 750} );
-    }*/
-
-    $('#home-slider').owlCarousel({
-        navigation : false, // Show next and prev buttons
-        slideSpeed : 300,
-        paginationSpeed : 400,
-        singleItem:true,
-        autoPlay: true,
-        pagination: false
-    });
-});
-
-$(window).resize( function(){
-    fitElements();
-});
-
-function fitElements(){
-    windowHeight = $(window).height();
-    $('#home-slider .item').height(windowHeight-90 + "px");
-    
-}
