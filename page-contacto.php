@@ -88,6 +88,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
                     </div>
 
+                    <div class="row" id="google-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m8!1m3!1d3760.8843074992633!2d-99.25483214998472!3d19.503612666626694!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e1!4m0!4m3!3m2!1d19.5040969!2d-99.2547905!5e0!3m2!1sen!2smx!4v1420493383672" width="100%" height="300" frameborder="0" style="border:0"></iframe>
+                    </div>
+
                 </div>
             </section>
             

@@ -709,7 +709,7 @@ footer .social-icon{
   }
 
   .page-container{
-    margin-top: 60px;
+    margin-top: 90px;
   }
 
   .navbar-brand img{
@@ -752,6 +752,16 @@ footer .social-icon{
 
   #main-nav .nav li a{
     text-align: center;
+  }
+
+  #main-nav.white .nav li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #main-nav.black .nav li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   #promociones h1{
