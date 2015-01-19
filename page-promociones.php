@@ -19,7 +19,7 @@ Template Name: Promociones
                                     <h2 class="center">CIRUGÍA DE NARÍZ</h2>
                                     <h2 class="center">$30,000.00 MXN</h2>
                                 </div>
-                                <p class="center">SÓLO DICIEMBRE · SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
+                                <p class="center">SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
                             </div>
                             
                         </div>
@@ -32,7 +32,7 @@ Template Name: Promociones
                                     <h3 class="center">IMPLANTES DE SENOS</h3>
                                     <h2 class="center">$40,000.00 MXN </h2>
                                 </div>
-                                <p class="center">SÓLO DICIEMBRE · SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
+                                <p class="center">SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
                             </div>
                         </div>
 
@@ -45,7 +45,7 @@ Template Name: Promociones
                                     <h3 class="center">ABDOMINOPLASTÍA </h3>
                                     <h2 class="center">$35,000.00 MXN</h2>
                                 </div>
-                                <p class="center">SÓLO DICIEMBRE · SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
+                                <p class="center">SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
                             </div>
                         </div>
 
@@ -58,7 +58,7 @@ Template Name: Promociones
                                     <h3 class="center">LIPOSUCCIÓN</h3>
                                     <h2 class="center">$30,000.00 MXN</h2>
                                 </div>
-                                <p class="center">SÓLO DICIEMBRE · SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
+                                <p class="center">SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ Template Name: Promociones
                                     <h2 class="center">BOTOX&reg, RELLENO Y PLASMA RICO EN PLAQUETAS (UN ÁREA)</h2>
                                     <h2 class="center">$10,000.00 MXN</h2>
                                 </div>
-                                <p class="center">SÓLO DICIEMBRE · SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
+                                <p class="center">SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ Template Name: Promociones
                                     <h2 class="center">LIPOSUCCIÓN CON LIPOTRANSFERENCIA</h2>
                                     <h2 class="center">$45,000.00 MXN</h2>
                                 </div>
-                                <p class="center">SÓLO DICIEMBRE · SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
+                                <p class="center">SUJETO A PREVIA VALORACIÓN MÉDICA · APLICAN RESTRICCIONES</p>
                             </div>
                         </div>
                     </div>
