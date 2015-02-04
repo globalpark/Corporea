@@ -8,7 +8,7 @@
                     <div class="col-sm-5 right">
                         <div class="slide-text">
                             <h1>Mommy Makeover</h1>
-                            <a href="<?php echo site_url(); ?>/promociones">Consiéntete después de tu embarazo con este paquete postmaternidad para recuperar tu figura</a>
+                            <a href="<?php echo site_url(); ?>/financiamiento.php">Consiéntete después de tu embarazo con este paquete postmaternidad para recuperar tu figura</a>
                         </div>
                     </div>
                 </div>

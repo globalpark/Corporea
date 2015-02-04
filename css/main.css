@@ -673,6 +673,46 @@ footer .social-icon{
   border-bottom: 1px solid #d6d6d6;
 }
 
+/* ==================================================================
+   Página Financiamiento
+   ================================================================== */
+
+#financiamiento_intro {
+  height: 600px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100% background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#logos-tarjetas {
+  padding-top: 350px;
+}
+
+#financiamiento_desc{
+  background-color: #EAEAEA;
+
+}
+
+#financiamiento_desc .panel{
+  background-color: #EAEAEA;
+  border-radius: 0px;
+  border-color: #EAEAEA;
+  box-shadow: 0 1px 1px rgba(0,0,0,0);
+}
+
+.panel-title a {
+  color:white;
+  text-transform: uppercase;
+  font-weight: 300; 
+}
+
+#financiamiento_desc .panel-heading{
+  background-color: #757E82;
+  border-radius: 0px;
+  box-shadow: 0 rgba(0,0,0,0);
+}
 
 
 /* ==================================================================
