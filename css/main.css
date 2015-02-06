@@ -715,6 +715,102 @@ footer .social-icon{
 }
 
 
+#procedimiento_intro{
+  height: 600px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100% background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* ==================================================================
+   Procedimiento
+   ================================================================== */
+
+#container-nav .container{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+
+}
+#container-nav{
+  width:100%;
+  background-color: white; 
+}
+
+.tab-pane {
+  background-color: white;
+
+}
+
+#procedimiento_desc li{
+
+}
+
+#procedimiento_desc .nav-tabs {
+  border-bottom: none; 
+  background-color: #DF96A7; 
+}
+
+#procedimiento_desc .nav-tabs .active{
+  background-color: #DF96A7; 
+  margin: 0px;
+  height:100%;
+}
+
+
+#procedimiento_desc .nav-tabs a{
+  background-color: #DF96A7; 
+  color: white;
+  border: none;
+
+  margin-top: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 40px;
+
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+  border-radius: 1px;
+
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+
+#procedimiento_desc .nav-tabs .active a{
+  border: 1px solid white;
+  background-color: #DF96A7; 
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 9px;
+  padding-left: 9px;
+  
+  /*
+  margin-top: 7px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 7px;
+  */
+
+
+}
+
+#procedimiento_desc .nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+#procedimiento_desc .nav-tabs, .nav-pills {
+    text-align:center;
+}
+
 /* ==================================================================
    Media Queries
    ================================================================== */
