@@ -715,6 +715,14 @@ footer .social-icon{
 }
 
 
+
+/* ==================================================================
+   Procedimiento
+   ================================================================== */
+
+.page-container {
+  width: 100%;
+}
 #procedimiento_intro{
   height: 600px;
   padding-top: 30px;
@@ -723,16 +731,16 @@ footer .social-icon{
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* ==================================================================
-   Procedimiento
-   ================================================================== */
 
-#container-nav .container{
-  padding: 0px;
-  margin: 0px;
-  width: 100%;
-
+#procedimiento_intro h1 {
+  font-size: 55px;
 }
+
+
+
+
+*/
+
 #container-nav{
   width:100%;
   background-color: white; 
@@ -789,26 +797,72 @@ footer .social-icon{
   padding-bottom: 3px;
   padding-right: 9px;
   padding-left: 9px;
-  
-  /*
-  margin-top: 7px;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-bottom: 7px;
-  */
-
-
 }
 
 #procedimiento_desc .nav-tabs > li, .nav-pills > li {
     float:none;
     display:inline-block;
-    *display:inline; /* ie7 fix */
-     zoom:1; /* hasLayout ie7 trigger */
 }
 
 #procedimiento_desc .nav-tabs, .nav-pills {
     text-align:center;
+}
+
+#ojos .container {
+  background-color: white;
+  width: 100%;
+  padding-right: 0px;
+}
+
+#proced-foto{
+  height: 500px;
+  background-color: blue;
+}
+
+.proced-title {
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.proced-desc{
+  font-weight: 300;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+#desc button {
+  float: right;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  border-radius: 1px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+#menu-tabs{
+  background-color: #DF96A7;
+  width: 100%;
+}
+
+#  {
+  width: 100%;
+  background-color: white;
+}
+
+.tab-content .container-fluid {
+  padding:0px;
+} 
+
+
+.left {
+  background-color: #F4D3DB;
 }
 
 /* ==================================================================
